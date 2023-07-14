@@ -10,13 +10,15 @@
       "defaultConfiguration": "production",
       "options": {
         "root": "packages/core",
-        "outputPath": "dist/packages/core"
+        "outputPath": "dist/core"
       },
       "configurations": {
         "development": {
           "outputPath": "packages/core"
         },
-        "production": {}
+        "production": {
+          "outputPath": "dist/core"
+        }
       }
     },
     "serve": {
